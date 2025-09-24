@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Fear God Styles Landing Page
+    - Edit WhatsApp number in data-whatsapp="2348088184511" and script.js
+    - Replace product image paths and names in index.html as needed
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fear God Styles — Where Creativity Meets Purpose</title>
+  <meta name="description" content="Custom frames, throw pillows, mugs, t-shirts, tote bags & souvenirs. Perfect for events, gifting & home decor.">
+  <meta property="og:title" content="Fear God Styles — Where Creativity Meets Purpose">
+  <meta property="og:description" content="Custom frames, throw pillows, mugs, t-shirts, tote bags & souvenirs. Perfect for events, gifting & home decor.">
+  <meta property="og:image" content="assets/images/hero.jpg">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <!-- Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sticky WhatsApp button (mobile only) -->
+  <a href="https://wa.me/2348088184511" class="whatsapp-sticky" target="_blank" aria-label="Order on WhatsApp">
+    <img src="assets/icons/whatsapp.svg" alt="WhatsApp" width="32" height="32">
+  </a>
+  <header data-section="hero">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="logo">
+        <span>Fear God <span class="logo-accent">Styles</span></span>
+        <span class="badge">Nationwide Delivery</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#shop" class="nav-link">Shop</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Fear God Styles — <span class="accent">Where Creativity Meets Purpose</span></h1>
+      <p class="hero-subtext">
+        Custom frames, throw pillows, mugs, t-shirts, tote bags & souvenirs. Perfect for events, gifting & home decor.
+      </p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/2348088184511" target="_blank" class="btn btn-primary" id="hero-whatsapp">Order on WhatsApp</a>
+        <a href="#shop" class="btn btn-secondary" id="browse-products">Browse Products</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Why Choose Us -->
+    <section id="why" class="features" aria-label="Why Choose Us">
+      <h2>Why Choose Us</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <img src="assets/images/handmade.jpg" alt="Handmade Quality">
+          <h3>Handmade Quality</h3>
+          <p>Every item crafted with care for unique gifting & decor.</p>
+        </div>
+        <div class="feature-card">
+          <img src="assets/images/delivery.jpg" alt="Nationwide Delivery" width="40" height="40">
+          <h3>Nationwide Delivery</h3>
+          <p>We deliver fast, anywhere in Nigeria.</p>
+        </div>
+        <div class="feature-card">
+          <img src="assets/images/whatsapp.jpg" alt="Fast WhatsApp Response" width="40" height="40">
+          <h3>Fast WhatsApp Response</h3>
+          <p>Questions? Orders? We reply in minutes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop / Product Grid -->
+    <section id="shop" class="product-preview" aria-label="Shop Preview">
+      <h2>Shop Preview</h2>
+      <div class="product-grid">
+        <!-- Product Card Example: Edit name, price, image, and WhatsApp message as needed -->
+        <div class="product-card">
+          <img src="assets/images/potrait.jpg" alt="Custom Frame" loading="lazy">
+          <div class="product-info">
+            <h3>Custom Frame</h3>
+            <span class="price">₦6,000</span>
+            <a href="#" class="btn btn-order" data-product="Custom Frame">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/pillow1.jpg" alt="Throw Pillow" loading="lazy">
+          <div class="product-info">
+            <h3>Throw Pillow</h3>
+            <span class="price">₦4,000</span>
+            <a href="#" class="btn btn-order" data-product="Throw Pillow">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/mug1.jpg" alt="Custom Mug" loading="lazy">
+          <div class="product-info">
+            <h3>Custom Mug</h3>
+            <span class="price">₦2,500</span>
+            <a href="#" class="btn btn-order" data-product="Custom Mug">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/tshirt1.jpg" alt="T-shirt" loading="lazy">
+          <div class="product-info">
+            <h3>T-shirt</h3>
+            <span class="price">₦5,500</span>
+            <a href="#" class="btn btn-order" data-product="T-shirt">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/totebag1.jpg" alt="Tote Bag" loading="lazy">
+          <div class="product-info">
+            <h3>Tote Bag</h3>
+            <span class="price">₦3,500</span>
+            <a href="#" class="btn btn-order" data-product="Tote Bag">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/souvenir1.jpg" alt="Souvenir" loading="lazy">
+          <div class="product-info">
+            <h3>Souvenir</h3>
+            <span class="price">₦2,000</span>
+            <a href="#" class="btn btn-order" data-product="Souvenir">Order on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section" aria-label="Product Gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <!-- Replace images and alt text as needed -->
+        <img src="assets/images/potrait.jpg" alt="Custom Frame Sample" loading="lazy" class="gallery-thumb">
+        <img src="assets/images/pillow1.jpg" alt="Throw Pillow Sample" loading="lazy" class="gallery-thumb">
+        <img src="assets/images/mug1.jpg" alt="Custom Mug Sample" loading="lazy" class="gallery-thumb">
+        <img src="assets/images/tshirt1.jpg" alt="T-shirt Sample" loading="lazy" class="gallery-thumb">
+        <img src="assets/images/totebag1.jpg" alt="Tote Bag Sample" loading="lazy" class="gallery-thumb">
+        <img src="assets/images/souvenir1.jpg" alt="Souvenir Sample" loading="lazy" class="gallery-thumb">
+        <!-- Example Unsplash placeholders -->
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=400&fit=crop" alt="Decor Sample" loading="lazy" class="gallery-thumb">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=400&fit=crop" alt="Gift Sample" loading="lazy" class="gallery-thumb">
+      </div>
+      <!-- Lightbox modal -->
+      <div id="lightbox" aria-modal="true" role="dialog" tabindex="-1">
+        <img src="" alt="" id="lightbox-img">
+        <button id="lightbox-close" aria-label="Close gallery">&times;</button>
+      </div>
+    </section>
+
+    <!-- About / How It Works -->
+    <section id="about" class="about-section" aria-label="About Fear God Styles">
+      <h2>About &amp; How It Works</h2>
+      <p>
+        Fear God Styles is your destination for creative gifting and decor. From custom frames to stylish souvenirs, each product is handmade and delivered nationwide. To order, simply contact us on WhatsApp, confirm your selection and delivery details, make payment, and we ship your order quickly.
+      </p>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-section" aria-label="Customer Testimonials">
+      <h2>What Customers Say</h2>
+      <div class="testimonial-carousel" aria-live="polite">
+        <div class="testimonial-card active">
+          <div class="testimonial-card-image">
+            <img src="assets/images/testimonial1.jpg" alt="Happy Customer 1" loading="lazy">
+          </div>
+          <blockquote>
+            <p>“Absolutely loved my custom frame! Great quality and quick delivery. Will order again.”</p>
+            <footer>- Ada, Lagos</footer>
+          </blockquote>
+        </div>
+        <div class="testimonial-card active">
+          <div class="testimonial-card-image">
+            <img src="assets/images/testimonial2.jpg" alt="Happy Customer 2" loading="lazy">
+          </div>
+          <blockquote>
+            <p>“The pillows and mugs were perfect gifts for my event. Super creative!”</p>
+            <footer>- Chinedu, Abuja</footer>
+          </blockquote>
+        </div>
+        <div class="testimonial-card active">
+          <div class="testimonial-card-image">
+            <img src="assets/images/testimonial3.jpg" alt="Happy Customer 3" loading="lazy">
+          </div>
+          <blockquote>
+            <p>“Ordered via WhatsApp, got a fast reply and smooth delivery. Highly recommend.”</p>
+            <footer>- Maryam, Port Harcourt</footer>
+          </blockquote>
+        </div>
+        <button class="carousel-btn prev" aria-label="Previous testimonial">&lt;</button>
+        <button class="carousel-btn next" aria-label="Next testimonial">&gt;</button>
+      </div>
+    </section>
+
+    <!-- Mailing list form -->
+<section id="mailing" class="mailing-section" aria-label="Join Mailing List">
+  <h2>Join Our Mailing List</h2>
+  <form id="mailing-form" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" autocomplete="off">
+    
+    <!-- Optional hidden fields -->
+    <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+    <input type="hidden" name="_subject" value="New Mailing List Signup">
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> <!-- redirect after submit -->
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com">
+    <button type="submit" class="btn btn-primary">Join</button>
+  </form>
+  
+  <div id="toast" role="alert" aria-live="assertive"></div>
+</section>
+</main>
+
+
+  <!-- Footer / Contact -->
+  <footer id="contact" class="footer-section" aria-label="Contact & Socials">
+    <div class="footer-content">
+      <h2>Contact Us</h2>
+      <p>
+        <a href="https://wa.me/2348088184511" class="footer-whatsapp" target="_blank">
+          <img src="assets/icons/whatsapp.svg" alt="WhatsApp" width="20" height="20"> WhatsApp: +234 808 818 4511
+        </a>
+        <br>
+        <a href="https://instagram.com/feargodstyles247" target="_blank">
+          <img src="assets/icons/instagram.svg" alt="Instagram" width="20" height="20"> Instagram: @feargodstyles247
+        </a>
+        <br>
+        <span>Phone: +234 808 818 4511</span>
+        <br>
+        <span>Email: info@feargodstyles.com</span>
+      </p>
+      <small>
+        &copy; <span id="year"></span> Fear God Styles. All rights reserved.<br>
+        <span class="disclaimer">Products are handmade; colors & designs may vary. Delivery times may depend on location.</span>
+      </small>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
